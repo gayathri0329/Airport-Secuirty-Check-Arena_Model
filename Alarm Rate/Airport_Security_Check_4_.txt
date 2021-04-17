@@ -1,0 +1,98 @@
+SIMAN Run Controller.
+
+132.98516 Minutes>
+                                      ARENA Simulation Results
+                                        HP - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/24/2021
+Analyst: HP                                                          Model revision date: 3/24/2021
+
+Replication ended at time      : 210.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cycle Time for Passengers                   14.828     (Insuf)    1.7938     47.170        117    
+Passenger.VATime                            3.5809     (Insuf)    .43474     17.497        138    
+Passenger.NVATime                           .00000     (Insuf)    .00000     .00000        138    
+Passenger.WaitTime                          13.584     (Insuf)    .00000     82.834        138    
+Passenger.TranTime                          .00000     (Insuf)    .00000     .00000        138    
+Passenger.OtherTime                         .00000     (Insuf)    .00000     .00000        138    
+Passenger.TotalTime                         15.673     (Insuf)    .51379     65.647        138    
+Walk through Metal Detector.Queue.WaitingT  19.073     (Insuf)    .00000     38.679         89    
+Xray Baggage Check.Queue.WaitingTime        .25511     (Insuf)    .00000     1.7701        164    
+Explosive Trace Detector by Patdown office  .00889     (Insuf)    .00000     .27683         86    
+Check for Proper Identification.Queue.Wait  4.6543     (Insuf)    .00000     15.504        176    
+Mannual Checking of Baggage.Queue.WaitingT  3.5737     (Insuf)    .00000     11.675          7    
+Collect Bag and Electronic gadgets to leav  .21373     (Insuf)    .00000     1.8440        236    
+Inspecting Metal objects.Queue.WaitingTime  .00000     (Insuf)    .00000     .00000          2    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Passenger.WIP                               25.016     (Corr)     .00000     135.00     133.00    
+Xray Machine.NumberBusy                     .28626     (Insuf)    .00000     1.0000     .00000    
+Xray Machine.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Xray Machine.Utilization                    .28626     (Insuf)    .00000     1.0000     .00000    
+Luggage check Officer.NumberBusy            .35964     (Insuf)    .00000     1.0000     .00000    
+Luggage check Officer.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Luggage check Officer.Utilization           .35964     (Insuf)    .00000     1.0000     .00000    
+WTMD machine.NumberBusy                     .43763     (Insuf)    .00000     1.0000     1.0000    
+WTMD machine.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+WTMD machine.Utilization                    .43763     (Insuf)    .00000     1.0000     1.0000    
+Inspecting Officer.NumberBusy               .02043     (Insuf)    .00000     1.0000     .00000    
+Inspecting Officer.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Inspecting Officer.Utilization              .02043     (Insuf)    .00000     1.0000     .00000    
+Security Officer.NumberBusy                 .41394     (Insuf)    .00000     1.0000     1.0000    
+Security Officer.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Security Officer.Utilization                .41394     (Insuf)    .00000     1.0000     1.0000    
+Patdown Officer.NumberBusy                  .28441     (Insuf)    .00000     1.0000     1.0000    
+Patdown Officer.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Patdown Officer.Utilization                 .28441     (Insuf)    .00000     1.0000     1.0000    
+Walk through Metal Detector.Queue.NumberIn  15.436     (Insuf)    .00000     77.000     77.000    
+Xray Baggage Check.Queue.NumberInQueue      .19923     (Insuf)    .00000     4.0000     .00000    
+Explosive Trace Detector by Patdown office  .00364     (Insuf)    .00000     1.0000     .00000    
+Check for Proper Identification.Queue.Numb  5.5408     (Corr)     .00000     48.000     47.000    
+Mannual Checking of Baggage.Queue.NumberIn  .11912     (Insuf)    .00000     1.0000     .00000    
+Collect Bag and Electronic gadgets to leav  .24019     (Insuf)    .00000     2.0000     .00000    
+Inspecting Metal objects.Queue.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Passengers with trace of Explosives               6  Infinite
+Passengers with weapons or dangerous goods        0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Passenger.NumberIn                          505.00    
+Passenger.NumberOut                         372.00    
+Xray Machine.NumberSeized                   164.00    
+Xray Machine.ScheduledUtilization           .28626    
+Luggage check Officer.NumberSeized          7.0000    
+Luggage check Officer.ScheduledUtilization  .35964    
+WTMD machine.NumberSeized                   89.000    
+WTMD machine.ScheduledUtilization           .43763    
+Inspecting Officer.NumberSeized             2.0000    
+Inspecting Officer.ScheduledUtilization     .02043    
+Security Officer.NumberSeized               176.00    
+Security Officer.ScheduledUtilization       .41394    
+Patdown Officer.NumberSeized                86.000    
+Patdown Officer.ScheduledUtilization        .28441    
+System.NumberOut                            138.00    
+
+
+Simulation run time: 0.08 minutes.
+Simulation run complete.
